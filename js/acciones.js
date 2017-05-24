@@ -1,4 +1,3 @@
-// JavaScript Document
 
 $(document).ready(function(e) {
 document.addEventListener("deviceready", onDeviceReady,false);
@@ -69,4 +68,5 @@ function watchPosition(){
 		alert('code:'  +error.code   +'\n'+'message:'+error.message+'\n');
 	}
 	
-}
+}		
+		
